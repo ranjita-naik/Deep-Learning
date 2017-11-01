@@ -20,7 +20,7 @@ $ python train.py
 
 ```
 $ python sample.py \
---vocabulary data/tinyshakespeare/vocab.bin \
+--vocabulary data/vocab.bin \
 --model cv/some_checkpoint.chainermodel \
 --primetext donald --gpu -1
 ```
